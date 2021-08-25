@@ -1,0 +1,289 @@
+:root {
+  --primary-color: #fa4a0c;
+  --second-color: #252b42;
+  --text-color: #737373;
+  --primary-size-font: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: var(--primary-size-font);
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.footer-container {
+  max-width: 1210px;
+  margin: 0 auto;
+}
+
+.cont-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.nav-a {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #252b42;
+}
+
+.nav-span {
+  margin-right: 114px;
+}
+
+button {
+  color: white;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  height: 68px;
+  width: 236px;
+  padding: 18px 0px;
+}
+
+.button-style-1 {
+  background: var(--primary-color);
+  border: none;
+  margin-right: 35px;
+}
+
+.button-style-2 {
+  background: none;
+  border: 1px solid white;
+}
+
+.restapp {
+  background-image: url('../img/back1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 80px 0 178px;
+}
+
+.restapp_info {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: #f7f7f7;
+}
+
+.restapp_title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 58px;
+  line-height: 80px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin: 10px auto;
+  max-width: 800px;
+}
+
+.restapp_about {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #f7f7f7;
+  margin-bottom: 50px;
+}
+
+.order_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.order {
+  background-image: url('../img/back2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 147px 0 131px;
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*margin-top: 142px;*/
+  margin-top: 102px;
+  margin-bottom: 50px;
+}
+
+.mobile_head {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 0.1px;
+  color: var(--primary-color);
+}
+
+.mobile_title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  color: #252b42;
+  max-width: 561px;
+  margin: 17px 0;
+}
+
+.mobile_text {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.2px;
+  color: #737373;
+  margin: 27px 0;
+  max-width: 467px;
+}
+
+.mobile_title_head {
+  font-family: Montserrat;
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--second-color);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 414px) and (max-width: 896px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .order {
+    background-image: none;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    padding: 147px 0 131px;
+  }
+  .restapp {
+    background-image: none;
+    color: white;
+    text-align: center;
+    padding: 80px 0 178px;
+  }
+    .mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin-top: 142px;*/
+    margin-top: 102px;
+    margin-bottom: 50px;
+  }
+    .mobile_title{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+  }
+  .mobile_head {
+    color: #FA4A0C;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+  
+  }
+
+  
+    .button-style-1 {
+      display: flex;
+      margin-left: 89px;
+      margin-right: 89px;
+      flex-direction: column;
+      align-items: center;
+      background: #FA4A0C;
+      border: none;
+      margin-bottom: 33px;
+    }
+    .button-style-2 {
+      background: none;
+      border: 3px solid #FA4A0C;
+      color: #FA4A0C;
+      border-radius: 30px;
+      text-align: center;
+    }
+  .mobile_text{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+  }
+  .mobile_title_head{
+    margin-bottom: 114px;
+  }
+  .restapp_title{
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #252B42;
+
+  }
+  .restapp_info{
+    color: #737373;
+
+  }
+  .restapp_about{
+    color: #737373;
+
+  }
+
+}
